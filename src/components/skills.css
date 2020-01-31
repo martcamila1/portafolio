@@ -1,0 +1,41 @@
+.skillsContainer{
+    height: 500px;
+    background-color: white;
+}
+
+.skillsTitle{
+    color:#FA5711;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    padding:40px 40px 0px 40px;
+}
+
+
+.git{
+    width: 120px;
+    height: 120px;
+    margin:30px 30px 10px 30px;
+}
+
+.containeLogos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.parrafo{
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    color: #FA5711;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
