@@ -5,7 +5,7 @@ import './proyects.css'
 class Proyects extends Component {
 
   render() {
-    return <div >
+    return <div className="container1">
 
       
         <div id="card" class="card">

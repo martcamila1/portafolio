@@ -6,6 +6,7 @@ import logoCss from '../images/css-3.png'
 import logoJS from '../images/javascript_icon.png'
 import logoGithub from '../images/github-logo2.png'
 import logoReact from '../images/react.png'
+import logoFirebase from '../images/firebase_logo.png'
 
 
 
@@ -55,7 +56,11 @@ class Skills extends Component{
 
         </div>
 
+        <div>
+        <img className="git" alt="logoGit2" src={logoFirebase}/>
+        <p className="parrafo">Firebase</p>
 
+        </div>
        
         
         

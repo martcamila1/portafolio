@@ -18,10 +18,10 @@
 }
 
 
-.git{
-    width: 120px;
-    height: 120px;
-    margin:30px 30px 10px 30px;
+.git {
+    width: 70px;
+    height: 70px;
+    margin: 30px 30px 10px 30px;
 }
 
 .containeLogos{
@@ -31,6 +31,7 @@
 }
 
 .parrafo{
+    font-family: 'Niramit', sans-serif;
     align-items: center;
     text-align: center;
     margin: 0px;
@@ -39,3 +40,99 @@
     font-weight: 600;
     letter-spacing: 2px;
 }
+
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .skillsContainer{
+        height: 600px;
+        
+    }
+    
+    .skillsTitle{
+        font-size: 30px;
+        margin-top: 0px;
+        padding:40px 40px 0px 40px;
+    }
+    
+    
+    .git{
+        width: 120px;
+        height: 120px;
+        margin:30px 30px 10px 30px;
+    }
+    
+    
+    .parrafo{
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        color: #FA5711;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+}
+
+
+@media screen and (min-width:609px) and (max-width:991px){
+    .skillsContainer{
+        height: 400px;
+    }
+    
+    .skillsTitle{
+        font-size: 26px;
+        margin-top: 0px;
+        padding:40px 40px 0px 40px;
+    }
+    
+    
+    .parrafo{
+        margin: 0px;
+        font-size: 14px;
+        
+       
+    }
+
+    .container1{
+        margin:0px
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:608px){
+    .skillsContainer{
+        height: 500px;
+        width: 600px;
+    }
+    
+    .skillsTitle{
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin-top: 0px;
+        padding:40px 40px 0px 40px;
+    }
+    
+    
+    .git{
+        width: 60px;
+        height: 60px;
+        margin:20px 20px 5px 20px;
+    }
+    
+    
+    .parrafo{
+        
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+    
+    .containeLogos {
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+}
+    
