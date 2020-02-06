@@ -4,7 +4,7 @@
 }
 
 .skillsTitle{
-    color:#FA5711;
+    color:#111111;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -21,13 +21,16 @@
 .git {
     width: 70px;
     height: 70px;
-    margin: 30px 30px 10px 30px;
+    margin: 40px 40px 20px 40px;
 }
 
 .containeLogos{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .parrafo{
@@ -72,12 +75,18 @@
         letter-spacing: 2px;
     }
 
+    .containeLogos{
+        width: 95%;
+       
+    }
+    
+
 }
 
 
 @media screen and (min-width:609px) and (max-width:991px){
     .skillsContainer{
-        height: 400px;
+        height: 600px;
     }
     
     .skillsTitle{
@@ -98,12 +107,16 @@
         margin:0px
     }
 
+    .containeLogos{
+        width: 95%;
+    }
+
 }
 
 @media screen and (min-width:300px) and (max-width:608px){
     .skillsContainer{
         height: 500px;
-        width: 600px;
+        width: 672px;
     }
     
     .skillsTitle{

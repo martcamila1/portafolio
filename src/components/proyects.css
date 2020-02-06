@@ -45,12 +45,18 @@ img {
 
 }
 
+
 #img{
     border-style: none;
     width: 100%;
     height: 200px;
     border-radius: 20px 20px 0px 0px;
 }
+
+#img:hover{
+    background-image: black;
+  }
+
 
 #prueba , #prueba2{
     display: flex;
@@ -85,11 +91,11 @@ img {
 
 
 @media screen and (min-width:992px) and (max-width:1200px){
-    .containerCards{
-        height: 800px;
-        
-    }
     
+    .containerProyects {
+        /* width: 1200px; */
+        height: 900px;
+    }
     
     .titleProyects{
         font-size: 30px;
@@ -161,12 +167,15 @@ img {
 
 @media screen and (min-width:609px) and (max-width:991px){
 
-    .containerCards{
+    /* .containerCards{
         height: 650px;
         justify-content: center
+    } */
+    
+    .containerProyects {
+        /* width: 991px; */
+        height: 700px;
     }
-    
-    
     
     .titleProyects{
         font-size: 26px;
@@ -229,8 +238,8 @@ img {
     
     .containerProyects{
         background-color:#ff7b43 ;
-        width: 600px;
-        height: 1050px;
+        width: 672px;
+        height: 800px;
     }
     
     .titleProyects{

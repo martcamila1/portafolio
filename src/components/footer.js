@@ -8,12 +8,13 @@ class Footer extends Component {
   render(){
       return <div className="conrainerFooter">
       
-           <p className="titleFooter">Contáctame</p>
+           <p className="titleFooter">CONTACTO</p>
 
        <div className="containerLogo">   
-           <img className="github"alt="hola"src={logo}/> 
+            <a href="https://github.com/martcamila1?tab=repositories" target="blank"><img className="github"alt="hola"src={logo}/> </a> 
            <img className="github"alt="hola2"src={logoEnvelope}/>
-           <img className="github"alt="hola3"src={logoLinkedin}/>
+           
+           <a href="https://www.linkedin.com/in/camilamartinezmontecinos/" target="blank" ><img  className="github"alt="hola3"src={logoLinkedin}/></a>
        </div>
       </div>
   }

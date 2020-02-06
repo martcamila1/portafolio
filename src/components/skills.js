@@ -7,13 +7,15 @@ import logoJS from '../images/javascript_icon.png'
 import logoGithub from '../images/github-logo2.png'
 import logoReact from '../images/react.png'
 import logoFirebase from '../images/firebase_logo.png'
-
+import logoNpm from '../images/npmLogo.png'
+import logoNode from '../images/nodejs.png'
+// import logoMaterialize from '../images/materialize.png'
 
 
 class Skills extends Component{
     render(){
         return <div className="skillsContainer">
-        <h3 className="skillsTitle">Skills</h3>
+        <h3 className="skillsTitle">HABILIDADES TÉCNICAS</h3>
         <div className="containeLogos">
          
         <div>
@@ -61,6 +63,26 @@ class Skills extends Component{
         <p className="parrafo">Firebase</p>
 
         </div>
+
+        <div>
+        <img className="git" alt="logoGit2" src={logoNpm}/>
+        <p className="parrafo">NPM</p>
+
+        </div>
+
+        <div>
+        <img className="git" alt="logoGit2" src={logoNode}/>
+        <p className="parrafo">Node </p>
+
+        </div>
+
+        {/* <div>
+        <img className="git" alt="logoGit2" src={logoMaterialize}/>
+        <p className="parrafo">materialize </p>
+
+        </div>
+        */}
+       
        
         
         

@@ -2,14 +2,32 @@
     height: 700px;
 }
 
-.name{
+.containerNameDeveloper{
    
-    font-size: 40px;
-    position: relative;
-    z-index: 5;
-    padding: 290px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 320px;
+    border: 2px solid;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
+.name{
+    font-size: 70px;
+    font-family: EB GARAMOND;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.developer{
+    font-size: 40px;
+    font-family: 'Niramit', sans-serif;;
+}
 .coverPage{
     width: 100%;
     height: 650px;
@@ -17,11 +35,151 @@
     z-index: -1;
 }
 
-#navegation{
-    background-color: #111111 !important;
-}
+
 
 nav{
     position: fixed;
-    height: 40px;
+    height: 60px;
+    background-color: #111111;
+    font-size: 18px;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    z-index: 4
+}
+
+nav a{ 
+    font-family: 'Niramit', sans-serif;
+    color: blue;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+nav li{  
+    text-align: end;
+    
+    
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul a {
+    
+    font-size: 16px;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    .containerCoverPage{
+        height: 700px;
+    }
+    
+    .containerNameDeveloper{
+       
+        margin-top: 200px;
+        margin-left: 120px;
+        width: 800px;
+    }
+    
+    .name{
+        font-size: 70px;
+    }
+    
+    .developer{
+        font-size: 40px;
+     
+    }
+    .coverPage{
+        width: 100%;
+        height: 650px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    
+    nav{
+        height: 60px;
+        font-size: 18px;
+        align-items: center;
+        z-index: 4
+    }
+    
+   
+    
+    
+  
+}
+
+@media screen and (min-width:609px) and (max-width:991px){
+    .containerNameDeveloper{
+       
+        margin-top: 200px;
+        margin-left: 30px;
+        width: 700px;
+        
+    }
+    
+    .name{
+        font-size: 60px;
+    }
+    
+    .developer{
+        font-size: 40px;
+      
+    }
+    .coverPage{
+        width: 100%;
+        height: 650px;
+       
+    }
+    
+    
+    
+    nav{
+
+        height: 60px;
+        font-size: 18px;
+        width: 100%;
+        z-index: 4
+    }
+    
+    
+   
+}
+
+@media screen and (min-width:300px) and (max-width:608px){
+    .containerCoverPage{
+        height: 700px;
+        width: 672px;
+    }
+    
+    .containerNameDeveloper{
+       
+        margin-top: 200px;
+        margin-left: 40px;
+        width: 600px;
+        
+    }
+    
+    .name{
+        font-size: 55px;
+        
+    }
+    
+    .developer{
+        font-size: 40px;
+        font-family: 'Niramit', sans-serif;;
+    }
+    .coverPage{
+        width: 672px;
+        height: 650px;
+        position: absolute;
+        z-index: -1;
+    }
+        
+   
+      
 }

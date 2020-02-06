@@ -31,17 +31,20 @@
     color: #111111;
 }
 
-
-
 .container{
     display: flex;
 }
 
 .profile{
     width: 320px;
-    height: 300px;
-    border-radius: 30px;
+    height: 320px;
+    border-radius: 10px;
     margin-left: 130px;
+    margin-top: 0px;
+    border: solid 2px #D4D4D4;
+    border-radius: 10px;
+    position: relative;
+
 }
 
 #containerTitleText{
@@ -52,11 +55,23 @@
 .titleAbautMePhone{
     display: none;
 }
+.containerImg{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 35px;
+    margin: 1px #fa5711;
+    border: 2px #fa5711 solid;
+    border-radius: 10px;
+}
 
 @media screen and (min-width:992px) and (max-width:1200px){
     .containerAbautMe{
         height: 600px;
         padding: 30px;
+        /* width: 1200px; */
     }
     
     #titleAbautMe{
@@ -72,19 +87,23 @@
     }
     
     #textAbautMe{
-        width: 75%;
+        width: 95%;
         font-size: 20px;
         font-weight: 500;
+        
         
     }
     
     .profile{
-        width: 320px;
-        height: 300px;
-        border-radius: 30px;
-        margin-left: 90px;
+        margin-left: 10px;
+        margin-top: 0px;
     }
-    
+
+    .containerImg{
+        margin-left: 50px;
+        margin-top: 35px;
+       
+    }
 
 }
 
@@ -113,20 +132,26 @@
     }
     
     .profile{
-        width: 200px;
-        height: 160px;
-        border-radius: 30px;
+        width: 220px;
+        height: 220px;  
+        margin-left: 20px;
+      
+    }
+
+    .containerImg{
+        width: 220px;
+        height: 220px;
         margin-left: 50px;
-        margin-top: 15px;
+        margin-top: 35px;
     }
     
 }
 
 @media screen and (min-width:300px) and (max-width:608px){
     .containerAbautMe {
-        height: 660px;
+        height: 760px;
         padding: 0px;
-        width: 600px;
+        width: 670px;
     }
     
     #titleAbautMe{
@@ -157,6 +182,7 @@
         width: 500px;
         justify-content: center;
         margin-left: 45px;
+        margin-top: 70px
     
     }
 

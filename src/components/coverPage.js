@@ -1,26 +1,34 @@
 import React ,{Component} from 'react'
 // import CoverPage1 from '../images/portada.jpg'
-import Laptop from '../images/laptop.jpg'
+//  import Laptop from '../images/light-bulb.jpg'
+//  import Laptop from '../images/blur-bottle.jpg'
+ import Laptop from '../images/pc.jpg'
 import './coverPage.css'
 
 class CoverPage extends Component{
     render(){
         return <div className="containerCoverPage">
             <nav>
-            <div id="navegation" class="nav-wrapper">
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                   <li><a href="/">Sobre MÍ</a></li>
-                   <li><a href="/">Proyectos</a></li>
-                   <li><a href="/">Skills</a></li>
-                   <li><a href="/">Contacto</a></li>
+            
+                <ul >
+                <li className="nameNav"><a className="nameNav2" href="/">Contacto</a></li>
+                <li className="nameNav"><a className="nameNav2" href="/">Skills</a></li>
+                <li className="nameNav"><a className="nameNav2" href="/">Proyectos</a></li>
+                <li className="nameNav"><a className="nameNav2" href="/">Sobre Mí</a></li>
+                   
+                   
+                   
                  </ul>
-            </div>
+            
             </nav>
             <div>
-            <img  className="coverPage" alt="imagen"src={Laptop}/>
-            <div className="name">Camila Martinez </div>
-            {/* <div>Front-End Developer</div> */}
 
+            <img className="coverPage" alt="imagen"src={Laptop}/>
+            <div className="containerNameDeveloper">
+            <div className="name">CAMILA MARTÍNEZ </div>
+            <div className="developer">Front-End Developer</div>
+            
+         </div>
             </div>
         </div>
     }

@@ -4,27 +4,30 @@ import './proyects.css'
 
 class Proyects extends Component {
 
+  
+
   render() {
     return <div className="container1">
 
-      
-        <div id="card" class="card">
 
-          <div id="cardImg" >
-            <img class="activator" id="img" alt="prueba" src={this.props.imgProyects} />
-          </div>
-          <div id="cardButtons" >
-           <p className="nameProyects">{this.props.nameProyects}</p>
-            <div id="prueba">
+      <div id="card" class="card">
 
-              <button className="cardButtons" > Codigo</button>
-              <button className="cardButtons" > Demo</button>
-            </div>
-          </div>
-
+        <div id="cardImg" >
+            <img  id="img" alt="prueba" src={this.props.imgProyects} />
         </div>
 
-  
+        <div id="cardButtons" >
+          <p className="nameProyects">{this.props.nameProyects}</p>
+        <div id="prueba">
+
+          <a href={this.props.clickCode} rel="noopener noreferrer"><button className="cardButtons" > Codigo</button></a> 
+          <a href={this.props.clickDemo} rel="noopener noreferrer"><button className="cardButtons" onClick={this.props.onClick}> Demo</button></a>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
   }
 }
