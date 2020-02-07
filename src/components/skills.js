@@ -54,7 +54,7 @@ class Skills extends Component{
 
         <div>
         <img className="git" alt="logoGit2" src={logoGithub}/>
-        <p className="parrafo">html5</p>
+        <p className="parrafo">Github</p>
 
         </div>
 

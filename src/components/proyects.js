@@ -14,7 +14,9 @@ class Proyects extends Component {
 
         <div id="cardImg" >
             <img  id="img" alt="prueba" src={this.props.imgProyects} />
+      <div className="hoverImage"><p className="descriptionProyect"><p>{this.props.description}</p><p></p>{this.props.tools}</p></div>
         </div>
+        
 
         <div id="cardButtons" >
           <p className="nameProyects">{this.props.nameProyects}</p>

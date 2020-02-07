@@ -2,7 +2,8 @@
     display: flex;
     flex-flow: row wrap;
     height: 600px;
-    justify-content: center
+    justify-content: center;
+    padding: 60px;
 }
 
 .containerProyects{
@@ -45,6 +46,9 @@ img {
 
 }
 
+#cardImg{
+    position: relative;
+}
 
 #img{
     border-style: none;
@@ -53,9 +57,21 @@ img {
     border-radius: 20px 20px 0px 0px;
 }
 
-#img:hover{
-    background-image: black;
-  }
+.hoverImage{
+    border-style: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    transform: scale(0);
+    background: hsla(0, 4%, 5%, 0.856);
+    transition: transform .5s;
+    position: absolute;
+    top:0
+}
+
+#cardImg:hover  .hoverImage{
+    transform: scale(1);
+}
 
 
 #prueba , #prueba2{
@@ -88,7 +104,13 @@ img {
     padding-top: 10px;
     
 }
-
+.descriptionProyect{
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: 'Niramit', sans-serif;
+   display: flex;
+   flex-direction: column;
+}
 
 @media screen and (min-width:992px) and (max-width:1200px){
     
@@ -162,6 +184,9 @@ img {
         padding-top: 10px;
         
     }
+    .containerCards{
+        padding: 30px;
+    }
 
 }
 
@@ -230,7 +255,9 @@ img {
         
     }
     
-
+    .containerCards{
+        padding: 0px;
+    }
 
 }
 
@@ -317,5 +344,9 @@ img {
         position: inherit;
         padding-top: 25px;
         padding-bottom: 0px
+    }
+
+    .containerCards{
+        padding: 0px;
     }
 }
