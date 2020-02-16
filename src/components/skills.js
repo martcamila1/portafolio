@@ -9,12 +9,15 @@ import logoReact from '../images/react.png'
 import logoFirebase from '../images/firebase_logo.png'
 import logoNpm from '../images/npmLogo.png'
 import logoNode from '../images/nodejs.png'
+import ScrollableAnchor from "react-scrollable-anchor"
 // import logoMaterialize from '../images/materialize.png'
 
 
 class Skills extends Component{
     render(){
-        return <div className="skillsContainer">
+        return (
+          <ScrollableAnchor id="skills">
+        <div className="skillsContainer">
         <h3 className="skillsTitle">HABILIDADES TÉCNICAS</h3>
         <div className="containeLogos">
          
@@ -93,6 +96,8 @@ class Skills extends Component{
 
         
         </div>
+        </ScrollableAnchor>
+        )
     }
 }
 

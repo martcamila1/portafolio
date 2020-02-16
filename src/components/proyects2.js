@@ -4,10 +4,14 @@ import './proyects.css'
 import ImageBurgerQuenn from '../images/burger-queen.png'
 import imageDataLover from '../images/data-lovers.png'
 import imageSocialNetwork from '../images/social-network.png'
+import ScrollableAnchor from "react-scrollable-anchor"
 
 class Proyects2 extends Component{
     render(){
-        return <div className="containerProyects" >
+      
+        return(
+          <ScrollableAnchor id="proyectos">
+          <div className="containerProyects" >
             <h6 className="titleProyects">MIS PROYECTOS</h6>
             <div className="containerCards">
             
@@ -33,7 +37,8 @@ class Proyects2 extends Component{
             />
             </div>
         </div>
-
+        </ScrollableAnchor> 
+        )
     }
 }
 

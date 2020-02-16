@@ -11,10 +11,10 @@ class CoverPage extends Component{
             <nav>
             
                 <ul >
-                <li className="nameNav"><a className="nameNav2" href="/">Contacto</a></li>
-                <li className="nameNav"><a className="nameNav2" href="/">Skills</a></li>
-                <li className="nameNav"><a className="nameNav2" href="/">Proyectos</a></li>
-                <li className="nameNav"><a className="nameNav2" href="/">Sobre Mí</a></li>
+                <li className="nameNav"><a className="nameNav2" href="#contacto">Contacto</a></li>
+                <li className="nameNav"><a className="nameNav2" href="#skills">Skills</a></li>
+                <li className="nameNav"><a className="nameNav2" href="#proyectos">Proyectos</a></li>
+                <li className="nameNav"><a className="nameNav2" href="#sobreMi">Sobre Mí</a></li>
                    
                    
                    

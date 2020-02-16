@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import Profile from '../images/profile.JPG'
 import './abautMe.css'
+import ScrollableAnchor from "react-scrollable-anchor"
 
 class AbautMe extends Component{
     render(){
-        return <div className="containerAbautMe">
+      
+        return (<ScrollableAnchor id="sobreMi">
+           <div className="containerAbautMe">
                 <p className="titleAbautMePhone">SOBRE MÍ</p>
                 <div class="row">
                    
@@ -17,12 +20,14 @@ class AbautMe extends Component{
                    <p id="titleAbautMe">SOBRE MÍ</p>
                    <p id="textAbautMe" >Soy Front-end Developer  egresada de laboratoria  con capacidad de autoaprendizaje,                 proactiva, con gran sentido de responsabilidad y perseverante en todos los trabajos 
                    que me propongan. Me gusta enfrentarme a nuevos desafíos que ayuden a mi crecimiento profesional.
-                   Mi objetivo es trabajar en lugar donde ............................
+                
     
                    </p> 
                 </div>
                 </div>
         </div>
+        </ScrollableAnchor>
+        )
     }
 }
 // class AbautMe extends Component{
