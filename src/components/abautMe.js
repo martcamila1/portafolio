@@ -18,8 +18,10 @@ class AbautMe extends Component{
                  <div id="containerTitleText" class=" valign-wrapper col s12 m7 l7 xl7"> 
                    
                    <p id="titleAbautMe">SOBRE MÍ</p>
-                   <p id="textAbautMe" >Soy Front-end Developer  egresada de laboratoria  con capacidad de autoaprendizaje,                 proactiva, con gran sentido de responsabilidad y perseverante en todos los trabajos 
-                   que me propongan. Me gusta enfrentarme a nuevos desafíos que ayuden a mi crecimiento profesional.
+                   <p id="textAbautMe" >Front-End Developer y enfermera de profesión en constante búsqueda de nuevos aprendizajes.<br/>
+Me gusta trabajar en equipos colaborativamente para contribuir al mejor resultado de este, apoyando con mi pro-actividad, perseverancia y responsabilidad .<br/>
+Mi objetivo es incorporarme a un equipo donde pueda seguir creciendo profesionalmente y  pueda aportar mis conocimientos y habilidades adquiridas
+.
                 
     
                    </p> 

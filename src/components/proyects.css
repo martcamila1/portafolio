@@ -104,12 +104,13 @@ img {
     padding-top: 10px;
     
 }
-.descriptionProyect{
+.containerDescription{
    color: #FFFFFF;
    font-size: 16px;
    font-family: 'Niramit', sans-serif;
    display: flex;
    flex-direction: column;
+   padding:0px 10px 0px 10px;
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
