@@ -1,7 +1,7 @@
 .containerCards{
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
+    height: 800px;
     justify-content: center;
     padding: 60px;
 }
@@ -111,8 +111,17 @@ img {
    display: flex;
    flex-direction: column;
    padding:0px 10px 0px 10px;
+   margin: 5px 0px 0px 5px;
 }
 
+.descriptionProyect{
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.toolsProyect{
+  text-align: justify;
+}
 @media screen and (min-width:992px) and (max-width:1200px){
     
     .containerProyects {
@@ -262,7 +271,7 @@ img {
     
     .containerProyects{
         width: 672px;
-        height:1200px;
+        height:1600px;
     }
     
     .titleProyects{

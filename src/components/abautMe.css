@@ -35,8 +35,8 @@
 }
 
 .profile{
-    width: 320px;
-    height: 320px;
+    width: 350px;
+    height: 300px;
     border-radius: 10px;
     margin-left: 130px;
     margin-top: 0px;
@@ -55,8 +55,8 @@
     display: none;
 }
 .containerImg{
-    width: 320px;
-    height: 320px;
+    width: 350px;
+    height: 300px;
     position: absolute;
     justify-content: center;
     margin-left: 170px;
@@ -95,12 +95,12 @@
     }
     
     .profile{
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 0px;
     }
 
     .containerImg{
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 35px;
        
     }
@@ -150,7 +150,7 @@
 
 @media screen and (min-width:300px) and (max-width:608px){
     .containerAbautMe {
-        height: 760px;
+        height: 800px;
         padding: 0px;
         width: 670px;
     }
@@ -166,6 +166,9 @@
         align-items: center;
         
        
+    }
+    .containerImg{
+      margin-left: 140px;
     }
     
     .container{

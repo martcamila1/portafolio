@@ -68,7 +68,9 @@ nav ul a {
     
     font-size: 16px;
 }
-
+a:active {
+  color: #FA5711;
+}
 @media screen and (min-width:992px) and (max-width:1200px){
 
     .containerCoverPage{
@@ -177,7 +179,10 @@ nav ul a {
         position: absolute;
         z-index: -1;
     }
+    nav ul a{
+
+    font-size: 20px;
         
-   
+    }
       
 }
