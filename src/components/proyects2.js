@@ -56,7 +56,7 @@ class Proyects2 extends Component{
             <Proyects nameProyects="Data lovers" imgProyects={imageDataLover} 
              clickCode="https://github.com/martcamila1/SCL011-data-lovers" 
              clickDemo="https://martcamila1.github.io/SCL011-data-lovers/src/index.html"
-             description=" Página web que  filtra ,ordena  y realiza un cálculo agregado de la data de Pokemón " 
+             description=" Página web para los fanáticos de Pokémon , en donde se puede encontrar de forma rápida y sencilla datos sobre lo pokemones de la región de kanto" 
              tools="Herramientas utilizadas :javascript, Css3, Html5"
              />
         </div>

@@ -4,17 +4,21 @@ import React ,{Component} from 'react'
 //  import Laptop from '../images/code.jpg'
 import Laptop from '../images/coding4.png'
 import './coverPage.css'
+import ScrollableAnchor from "react-scrollable-anchor"
 
 class CoverPage extends Component{
     render(){
-        return <div className="containerCoverPage">
+        return (
+          <ScrollableAnchor id="home">
+        <div className="containerCoverPage">
             <nav>
             
                 <ul >
                 <li className="nameNav"><a className="nameNav2" href="#contacto">Contacto</a></li>
-                <li className="nameNav"><a className="nameNav2" href="#skills">Skills</a></li>
+                <li className="nameNav"><a className="nameNav2" href="#skills">Habilidades</a></li>
                 <li className="nameNav"><a className="nameNav2" href="#proyectos">Proyectos</a></li>
                 <li className="nameNav"><a className="nameNav2" href="#sobreMi">Sobre Mí</a></li>
+                <li className="nameNav" id="home"><a className="nameNav2" href="#home">Home</a></li>
                    
                    
                    
@@ -31,7 +35,10 @@ class CoverPage extends Component{
          </div>
             </div>
         </div>
+        </ScrollableAnchor>
+        )
     }
+        
 }
 
 export default CoverPage

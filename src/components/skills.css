@@ -1,10 +1,10 @@
 .skillsContainer{
-    height: 500px;
+    height: 670px;
     background-color: white;
 }
 
 .skillsTitle{
-    color:#111111;
+    color:#fa5711;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -14,23 +14,39 @@
     text-align: center;
     letter-spacing: 3px;
     margin-top: 0px;
-    padding:70px 40px 0px 40px;
+    padding: 95px 40px 0px 40px;
 }
 
 
 .git {
     width: 70px;
     height: 70px;
-    margin: 40px 40px 20px 40px;
+    margin: 60px 40px 20px 40px;
 }
+
+
+.materialize{
+  width: 70px;
+  height: 50px;
+  margin: 70px 40px 30px 40px;
+}  
+.git:hover ,.materialize:hover
+    {
+      -webkit-transform:scale(1.25);
+      -moz-transform:scale(1.25);
+      -ms-transform:scale(1.25);
+      -o-transform:scale(1.25);
+      transform:scale(1.25);
+    }  
 
 .containeLogos{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 85%;
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 40px;
 }
 
 .parrafo{
@@ -38,7 +54,7 @@
     align-items: center;
     text-align: center;
     margin: 0px;
-    color: #FA5711;
+    color: #111111;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -86,13 +102,13 @@
 
 @media screen and (min-width:609px) and (max-width:991px){
     .skillsContainer{
-        height: 600px;
+        height: 700px;
     }
     
     .skillsTitle{
         font-size: 26px;
         margin-top: 0px;
-        padding:40px 40px 0px 40px;
+        padding: 80px 40px 0px 40px
     }
     
     
@@ -111,11 +127,15 @@
         width: 95%;
     }
 
+    .containeLogos{
+      margin-top: 10px;
+    }
+
 }
 
 @media screen and (min-width:300px) and (max-width:608px){
     .skillsContainer{
-        height: 500px;
+        height: 600px;
         width: 672px;
     }
     
@@ -130,10 +150,15 @@
     .git{
         width: 60px;
         height: 60px;
-        margin:20px 20px 5px 20px;
+        margin: 30px 30px 0px 30px;
     }
     
-    
+    .materialize{
+      width: 60px;
+      height: 40px;
+      margin: 43px 20px 10px 20px;
+
+    } 
     .parrafo{
         
         font-size: 16px;
@@ -146,6 +171,8 @@
         margin-right: auto;
         margin-left: auto;
     }
+
+    
     
 }
     

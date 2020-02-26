@@ -67,6 +67,11 @@
 .row{
     margin-top: 50px
 }
+
+#imgAbautMe{
+height: 300px;
+}
+
 @media screen and (min-width:992px) and (max-width:1200px){
     .containerAbautMe{
         height: 600px;
@@ -190,7 +195,8 @@
     
     }
     #containerResponsivePhone{
-      margin-top: 10px;
+      margin-top: 0px;
+      padding-top: 20px;
     }
     .titleAbautMePhone {
       display: block;
@@ -205,8 +211,7 @@
       letter-spacing: 0.20em;
       margin-top: 0px;
       position: inherit;
-      padding-top: 60px;
+      padding-top: 75px;
       padding-bottom: 0px;
-      margin-bottom: 0px;
 }
 }

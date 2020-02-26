@@ -1,4 +1,4 @@
-import React ,{Component} from 'react'
+import React, { Component } from 'react'
 import './skills.css'
 import logoGit from '../images/git.png'
 import logoHtml from '../images/html5.png'
@@ -10,95 +10,95 @@ import logoFirebase from '../images/firebase_logo.png'
 import logoNpm from '../images/npmLogo.png'
 import logoNode from '../images/nodejs.png'
 import ScrollableAnchor from "react-scrollable-anchor"
-// import logoMaterialize from '../images/materialize.png'
+import logoMaterialize from '../images/materializeLogo.png'
 
 
-class Skills extends Component{
-    render(){
-        return (
-          <ScrollableAnchor id="skills">
+class Skills extends Component {
+  render() {
+    return (
+      <ScrollableAnchor id="skills">
         <div className="skillsContainer">
-        <h3 className="skillsTitle">HABILIDADES TÉCNICAS</h3>
-        <div className="containeLogos">
-         
-        <div>
-        <img className="git" alt="logoGit2" src={logoJS}/>
-        <p className="parrafo">Javascript</p>
+          <h3 className="skillsTitle">HABILIDADES TÉCNICAS</h3>
+          <div className="containeLogos">
 
-        </div>
+            <div>
+              <img className="git" alt="logoGit2" src={logoJS} />
+              <p className="parrafo">Javascript</p>
 
-      
-        <div>
-        <img className="git" alt="logoGit2" src={logoHtml}/>
-        <p className="parrafo">html</p>
+            </div>
 
-        </div>
 
-        <div>
-            
-            <img className="git" alt="logoCss" src={logoCss}/> 
-            <p className="parrafo">Css3</p>
-    
+            <div>
+              <img className="git" alt="logoGit2" src={logoHtml} />
+              <p className="parrafo">html</p>
+
+            </div>
+
+            <div>
+
+              <img className="git" alt="logoCss" src={logoCss} />
+              <p className="parrafo">Css3</p>
+
             </div>
             <div>
-            
-            <img className="git" alt="logoReact" src={logoReact}/> 
-            <p className="parrafo">React</p>
-    
+
+              <img className="git" alt="logoReact" src={logoReact} />
+              <p className="parrafo">React</p>
+
             </div>
-    
-           
-           
+
+
+
             <div>
-        <img className="git" alt="logoGit" src={logoGit}/> 
-        <p className="parrafo">Git</p>
+              <img className="git" alt="logoGit" src={logoGit} />
+              <p className="parrafo">Git</p>
+
+            </div>
+
+            <div>
+              <img className="git" alt="logoGit2" src={logoGithub} />
+              <p className="parrafo">Github</p>
+
+            </div>
+
+            <div>
+              <img className="git" alt="logoGit2" src={logoFirebase} />
+              <p className="parrafo">Firebase</p>
+
+            </div>
+
+            <div>
+              <img className="git" alt="logoGit2" src={logoNpm} />
+              <p className="parrafo">NPM</p>
+
+            </div>
+
+            <div>
+              <img className="git" alt="logoGit2" src={logoNode} />
+              <p className="parrafo">Node </p>
+
+            </div>
+
+            <div>
+              <img className="materialize" alt="logoGit2" src={logoMaterialize} />
+              <p className="parrafo">materialize </p>
+
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+
 
         </div>
-
-        <div>
-        <img className="git" alt="logoGit2" src={logoGithub}/>
-        <p className="parrafo">Github</p>
-
-        </div>
-
-        <div>
-        <img className="git" alt="logoGit2" src={logoFirebase}/>
-        <p className="parrafo">Firebase</p>
-
-        </div>
-
-        <div>
-        <img className="git" alt="logoGit2" src={logoNpm}/>
-        <p className="parrafo">NPM</p>
-
-        </div>
-
-        <div>
-        <img className="git" alt="logoGit2" src={logoNode}/>
-        <p className="parrafo">Node </p>
-
-        </div>
-
-        {/* <div>
-        <img className="git" alt="logoGit2" src={logoMaterialize}/>
-        <p className="parrafo">materialize </p>
-
-        </div>
-        */}
-       
-       
-        
-        
-        
-
-       
-        </div>
-
-        
-        </div>
-        </ScrollableAnchor>
-        )
-    }
+      </ScrollableAnchor>
+    )
+  }
 }
 
 export default Skills
