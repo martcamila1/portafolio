@@ -1,8 +1,8 @@
 
 .containerAbautMe{
     background-color:white;
-    height:600px;
-    padding: 30px;
+    height:670px;
+    padding: 90px 0px 30px 30px;
 }
 
 #titleAbautMe{
@@ -150,7 +150,7 @@
 
 @media screen and (min-width:300px) and (max-width:608px){
     .containerAbautMe {
-        height: 800px;
+        height: 950px;
         padding: 0px;
         width: 670px;
     }
@@ -189,5 +189,24 @@
         margin-top: 70px
     
     }
-
+    #containerResponsivePhone{
+      margin-top: 10px;
+    }
+    .titleAbautMePhone {
+      display: block;
+      color: #FA5711;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 47px;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.20em;
+      margin-top: 0px;
+      position: inherit;
+      padding-top: 60px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+}
 }

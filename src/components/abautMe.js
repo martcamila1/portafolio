@@ -9,7 +9,7 @@ class AbautMe extends Component{
         return (<ScrollableAnchor id="sobreMi">
            <div className="containerAbautMe">
                 <p className="titleAbautMePhone">SOBRE MÍ</p>
-                <div class="row">
+                <div class="row" id="containerResponsivePhone">
                    
                  <div id="imgAbautMe" class="col m5 l5 xl5">
                  <div className="containerImg"></div> 

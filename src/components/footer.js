@@ -4,6 +4,7 @@ import logo from '../images/github-logo.png'
 import logoEnvelope from '../images/envelope.png'
 import logoLinkedin from '../images/linkedin-logo.png'
 import Portfolio from '../images/portfolio.png'
+import AppTalento from '../images/appTalento.png'
 import ScrollableAnchor from "react-scrollable-anchor"
 
 class Footer extends Component {
@@ -20,6 +21,7 @@ class Footer extends Component {
 
             <a href="https://www.linkedin.com/in/camilamartinezmontecinos/" target="_blank" ><img className="github" alt="Linkedin" src={logoLinkedin} /></a>
             <a href="https://drive.google.com/file/d/1WccnlxCndKv1xwTnj9nMkBjmrGccVVgz/view" target="_blank" ><img className="github" alt="Portafolio" src={Portfolio} /></a>
+            <a href="https://app.talento.laboratoria.la/profile/APFb2vf2MiMW7mtnJbdE4gbxZEW2" target="_blank" ><img className="github" alt="Portafolio" src={AppTalento} /></a>
           </div>
         </div>
       </ScrollableAnchor>

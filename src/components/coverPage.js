@@ -1,9 +1,8 @@
 import React ,{Component} from 'react'
-// import CoverPage1 from '../images/portada.jpg'
-//  import Laptop from '../images/light-bulb.jpg'
 //  import Laptop from '../images/blur-bottle.jpg'
 //  import Laptop from '../images/pc3.jpg'
- import Laptop from '../images/code.jpg'
+//  import Laptop from '../images/code.jpg'
+import Laptop from '../images/coding4.png'
 import './coverPage.css'
 
 class CoverPage extends Component{

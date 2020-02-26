@@ -22,8 +22,8 @@ class Proyects extends Component {
           <p className="nameProyects">{this.props.nameProyects}</p>
           <div id="prueba">
 
-            <a href={this.props.clickCode} rel="noopener noreferrer"><button className="cardButtons" > Código</button></a>
-            <a href={this.props.clickDemo} rel="noopener noreferrer"><button className="cardButtons" onClick={this.props.onClick}> Demo</button></a>
+            <a href={this.props.clickCode} target="_blanck" rel="noopener noreferrer"><button className="cardButtons" > Código</button></a>
+            <a href={this.props.clickDemo} target="_blanck" rel="noopener noreferrer"><button className="cardButtons" onClick={this.props.onClick}> Demo</button></a>
           </div>
         </div>
 
