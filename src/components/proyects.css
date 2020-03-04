@@ -21,7 +21,7 @@
     text-align: center;
     letter-spacing: 3px;
     margin-top: 0px;
-    padding: 90px 40px 0px 40px;
+    padding: 120px 40px 0px 40px;
 
 }
 #card{
@@ -127,13 +127,13 @@ img {
     
     .containerProyects {
         /* width: 1200px; */
-        height: 900px;
+        height: 1000px;
     }
     
     .titleProyects{
         font-size: 30px;
         margin-top: 0px;
-        padding:40px 40px 0px 40px;
+        padding:70px 40px 0px 40px;
     
     }
     #card{
@@ -212,7 +212,7 @@ img {
     .titleProyects{
         font-size: 26px;
         margin-top: 0px;
-        padding:40px 40px 0px 40px;
+        padding:60px 40px 0px 40px;
     
     }
    
@@ -248,35 +248,53 @@ img {
     
     .containerProyects{
         width: 672px;
-        height:1600px;
+        height:2150px;
     }
     
     .titleProyects{
         font-size: 25px;
+        padding-top: 90px;
     
     }
-    #card{
+    /* #card{
         width: 320px;
         height: 320px;
         margin: 20px;
     
        
+    } */
+    #img {
+    border-style: none;
+    width: 100%;
+    height: 330px;
+    border-radius: 20px 20px 0px 0px;
     }
-    
+
+    #card {
+      width: 450px;
+      height: 450px;
+      margin: 20px;
+  }
+
+    #cardButtons {
+      height: 120px;
+  }
   
     .cardButtons{
-        height: 30px;
-        width: 70px;
-        font-size: 14px;
-        padding: 1px;
+      height: 40px;
+      width: 100px;
+      font-size: 20px;
+      padding: 1px;
+
     
     }
     
     
     .nameProyects{
-        font-size: 16px;
+        font-size: 24px;
         margin-top: 0px;
         padding-top: 10px;
+        margin-bottom: 10px
         
     }
        
@@ -300,6 +318,15 @@ img {
     .containerCards{
         padding: 0px;
     }
-       
+    
+    .hoverImage {
+      height: 330px;
+      
+  }
+  .containerDescription {
+    
+    font-size: 24px;
+   
+}
     
 }

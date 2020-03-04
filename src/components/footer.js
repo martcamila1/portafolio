@@ -20,7 +20,7 @@ class Footer extends Component {
             <a href="mailto:martcamila1@gmail.com" target="_blank"><img className="github" alt="Email" src={logoEnvelope} /></a>
 
             <a href="https://www.linkedin.com/in/camilamartinezmontecinos/" target="_blank" ><img className="github" alt="Linkedin" src={logoLinkedin} /></a>
-            <a href="https://drive.google.com/file/d/1WccnlxCndKv1xwTnj9nMkBjmrGccVVgz/view" target="_blank" ><img className="github" alt="Portafolio" src={Portfolio} /></a>
+            <a href="https://drive.google.com/file/d/1or4Vfsry2nuljRAzuTjvx9SsN_4P0YkO/view?usp=sharing" target="_blank" ><img className="github" alt="Portafolio" src={Portfolio} /></a>
             <a href="https://app.talento.laboratoria.la/profile/APFb2vf2MiMW7mtnJbdE4gbxZEW2" target="_blank" ><img className="github" alt="Portafolio" src={AppTalento} /></a>
           </div>
         </div>

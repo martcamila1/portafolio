@@ -1,5 +1,5 @@
 .containerCoverPage{
-    height: 700px;
+    height: 730px;
 }
 
 .containerNameDeveloper{
@@ -33,7 +33,7 @@
 }
 .coverPage{
     width: 100%;
-    height: 700px;
+    height: 730px;
     position: absolute;
     z-index: -1;
 }
@@ -110,7 +110,9 @@ a:active {
         z-index: 4
     }
     
-   
+    nav ul a {
+      font-size: 18px;
+  }
     
     
   
@@ -148,20 +150,24 @@ a:active {
         width: 100%;
         z-index: 4
     }
-    
+    .coverPage{
+      width: 100%;
+      height: 750px;
+      
+  }
     
    
 }
 
 @media screen and (min-width:300px) and (max-width:608px){
     .containerCoverPage{
-        height: 700px;
+        height: 900px;
         width: 672px;
     }
     
     .containerNameDeveloper{
        
-        margin-top: 200px;
+        margin-top: 350px;
         margin-left: 40px;
         width: 600px;
         
@@ -178,13 +184,13 @@ a:active {
     }
     .coverPage{
         width: 672px;
-        height: 650px;
+        height: 900px;
         position: absolute;
         z-index: -1;
     }
     nav ul a{
 
-    font-size: 20px;
+    font-size: 22px;
         
     }
      #home{

@@ -47,6 +47,13 @@ class Skills extends Component {
 
             </div>
 
+            <div>
+
+              <img className="git" alt="logoReact" src={logoReact} />
+              <p className="parrafo">React Native</p>
+
+            </div>
+
 
 
             <div>
@@ -81,7 +88,7 @@ class Skills extends Component {
 
             <div>
               <img className="materialize" alt="logoGit2" src={logoMaterialize} />
-              <p className="parrafo">materialize </p>
+              <p className="parrafo">Materialize </p>
 
             </div>
 
